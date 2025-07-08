@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*글로벌네비게이션*/
+
+
+#_globalNavi{display:inline-block;vertical-align:top;line-height:1;}
+#_globalNavi #_globalUl{position: relative;}
+#_globalNavi #_globalUl li{float: left;border-left:1px dashed #888; margin-top:10px;}
+
+#_globalNavi #_globalUl li:first-child{border:0;}
+
+#_globalNavi #_globalUl li a{
+display:block;width:40px;
+margin-right:15px;	margin-left:15px;
+padding-top:40px;
+color:#c0c5cc;
+ font-family:"Noto Sans KR", "NanumGothic","Nanum Gothic", "나눔고딕" !important;
+font-size:11px; letter-spacing:-0.5px;
+text-align:center;background: url(http://dep.hufs.ac.kr/sites/ice/images/img_top_link.png) 0 0 no-repeat;}
+	
+	
+#_globalNavi #_globalUl li+li a {
+	background-position:-40px 0;
+}
+#_globalNavi #_globalUl li+li+li a { width:62px;margin-left:5px;margin-right:0px;
+	background-position:-75px 0;	text-align:center;
+}

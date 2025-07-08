@@ -1,0 +1,62 @@
+@charset "utf-8";
+/********************
+메인페이지 및 서브페이지 동시 적용.
+가장 마지막에 불러오는 CSS 파일입니다.
+※ 공통영역 CSS에서 부분별 개별 적용시 사용하시면 됩니다. 
+********************/ 
+    
+    .form-card label {
+		font-weight: 500;
+		color: #333;
+		margin-bottom: 6px;
+		display: block;
+		text-align: left;
+	  }
+	  
+	.form-card input[type="text"],
+	.form-card input[type="email"],
+	.form-card input[type="tel"],
+	.form-card textarea,
+	.form-card select{
+		width: 100%;
+		height: 2.75em;
+		padding: 5px 10px;
+		border-radius: 8px;
+		border: 1px solid #e0e0e0;
+		background: #fafbfc;
+		font-size: 16px;
+		color: #222;
+		margin-bottom: 12px;
+		transition: border-color 0.2s;
+	}
+	
+	.form-card input:focus,
+	.form-card textarea:focus,
+	.form-card select:focus {
+		border-color: #ffb300 !important;/* 포인트 컬러 */ 
+		outline: none;
+	}
+	
+	.form-card textarea {
+		min-height: 100px;
+		resize: vertical;
+	}
+	
+	/* 버튼 */
+	.form-card input[type="submit"] {
+		background: #bd8ceb;
+        justify-items: center;
+        align-items: center;
+		color: #fff;
+		font-weight: bold;
+		border: none;
+		border-radius: 8px;
+		padding: 14px 0;
+		font-size: 18px;
+		cursor: pointer;
+	}
+	
+	.form-card input[type="submit"]:hover {
+		background: #ffb300 !important;
+	}
+

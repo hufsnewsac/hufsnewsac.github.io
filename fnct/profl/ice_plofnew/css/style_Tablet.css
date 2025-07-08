@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body.Tablet #_JW_prFl_basic ._prFlList ._prFlLi .artclInfo dl dt,
+body.Tablet #_JW_prFl_basic ._prFlList ._prFlLi .artclInfo dl dd{
+	display: block;
+}
+body.Tablet #_JW_prFl_basic ._prFlList ._prFlLi .artclInfo dl dd{
+	padding-left: 10px;
+}
