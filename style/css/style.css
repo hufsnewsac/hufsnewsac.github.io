@@ -60,3 +60,15 @@
 		background: #ffb300 !important;
 	}
 
+.view-file {margin-bottom: 40px;}
+.view-file .row {display: table; width: 100%; border-top: 1px solid #7c7c7c; border-bottom: 2px solid #7c7c7c;}
+.view-file .row .title {width: 200px; display: table-cell; vertical-align: middle; padding: 25px 0; background: #f5f5f5; text-align: center; font-family: 'Noto Regular'; color: #444;}
+.view-file .row .insert {display: table-cell; vertical-align: middle; padding: 15px 30px;}
+.view-file .row .insert a {display: block; padding-left: 30px; margin-top: 5px; margin-bottom: 5px; background: url('../images/ico-add.png') no-repeat left center;}
+.view-file .no-file {color: #888;}
+
+@media all and (max-width:700px) {
+    .view-file .row {display: block;}
+    .view-file .row .title {display: block; width: 100%; text-align: left; padding:15px 0 15px 30px;}
+    .view-file .row .insert {display: block; width: 100%;}
+}
